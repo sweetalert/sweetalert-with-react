@@ -1,4 +1,4 @@
-# SweetAlert React Plugin
+# SweetAlert for React
 
 Easily render React components within your [SweetAlert](https://github.com/t4t5/sweetalert) modals.
 
