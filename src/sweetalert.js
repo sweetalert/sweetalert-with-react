@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import transformer from '@sweetalert/transformer';
-import swal from 'sweetalert';
+import transformer, { bindActions } from '@sweetalert/transformer';
 
 /*
  * Convert <Element /> to pure DOM node using ReactDOM
@@ -18,15 +17,16 @@ const getDOMNodeFromJSX = (Element) => {
       return resolve(el);
     });
   });
-}
+};
 
-export default async (...params) => {
-
-  const newOptions = await transformer(params, {
+const swal = (...params) => (
+  transformer(params, {
     identifier: React.isValidElement,
     transformer: getDOMNodeFromJSX, 
-  });
+  })
+);
 
-  return swal(newOptions);
-}
+bindActions(swal);
+
+export default swal;
 
