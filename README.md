@@ -35,6 +35,10 @@ class App extends React.Component {
 }
 ```
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/2598660/31619494-f68a91f8-b294-11e7-9561-b4f6b1abd724.png" width="600" />
+</p>
+
 You can also explicitly set the `content` option, if you want to set other [options](https://sweetalert.js.org/docs/#configuration) as well:
 
 ```javascript
