@@ -1,6 +1,6 @@
 {
   "name": "@sweetalert/with-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official SweetAlert plugin for React",
   "main": "dist/sweetalert.js",
   "scripts": {
