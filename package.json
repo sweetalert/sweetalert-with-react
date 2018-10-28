@@ -7,10 +7,10 @@
     "build": "node_modules/.bin/rollup -c",
     "prepare": "npm run build"
   },
-  "author": "",
+  "author": "Tristan Edwards <tristan.edwards@me.com> (https://tristanedwards.me)",
   "license": "MIT",
   "dependencies": {
-    "@sweetalert/transformer": "*"
+    "@sweetalert/transformer": "^0.1.1"
   },
   "peerDependencies": {
     "react": "^16.x.x",
