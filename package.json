@@ -1,19 +1,24 @@
 {
-  "name": "@sweetalert/react",
+  "name": "@sweetalert/with-react",
   "version": "0.1.0",
   "description": "Official SweetAlert plugin for React",
   "main": "dist/sweetalert.js",
   "scripts": {
-    "build": "node_modules/.bin/rollup -c"
+    "build": "node_modules/.bin/rollup -c",
+    "prepare": "npm run build"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "react": "16.0.0",
-    "react-dom": "16.0.0",
     "@sweetalert/transformer": "*"
   },
+  "peerDependencies": {
+    "react": "^16.x.x",
+    "react-dom": "^16.x.x"
+  },
   "devDependencies": {
-    "rollup": "0.50.0"
+    "rollup": "0.50.0",
+    "react": "^16.x.x",
+    "react-dom": "^16.x.x"
   }
 }

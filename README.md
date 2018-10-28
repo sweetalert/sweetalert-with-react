@@ -12,7 +12,7 @@ This lets you continue to use features like Promises, but makes building advance
 ## Install
 
 ```bash
-npm install @sweetalert/react
+npm install @sweetalert/with-react
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ When passing JSX as the only parameter, it will replace SweetAlert's `content` o
 
 ```javascript
 import React from 'react';
-import swal from '@sweetalert/react';
+import swal from '@sweetalert/with-react';
 
 class App extends React.Component {
   componentDidMount() {
